@@ -22,5 +22,11 @@
 }
 
 body {
-  background-color: honeydew;
+  background-color: #fff0f4;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
 }
