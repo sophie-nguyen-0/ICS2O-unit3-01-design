@@ -36,7 +36,10 @@
       onload="if(media!='all')media='all'"
     />
     <noscript>
-     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css" />
+      <link
+        rel="stylesheet"
+        href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css"
+      />
     </noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
@@ -57,20 +60,23 @@
       <main class="mdl-layout__content">
         <h2>formula:</h2>
         <h6>A = [(b1 + b2) / 2] h</h6>
-        <h3>Enter integers for 
-          <br>
+        <h3>
+          Enter integers for
+          <br />
           dimensions:
         </h3>
-        <img
-          src="./images/trapezoid.svg"
-          alt="trapezoid"
-        />
-        <br>
+        <img src="./images/trapezoid.svg" alt="trapezoid" />
+        <br />
         <!-- Numeric Textfield -->
         <form action="#">
           Base 1:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="sample2"
+            />
             <label class="mdl-textfield__label" for="sample2">Number...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -79,21 +85,31 @@
         <form action="#">
           Base 2:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="sample2"
+            />
             <label class="mdl-textfield__label" for="sample2">Number...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-         Height:
+          Height:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="sample2"
+            />
             <label class="mdl-textfield__label" for="sample2">Number...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-        <br>
+        <br />
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="myButtonClicked()"
