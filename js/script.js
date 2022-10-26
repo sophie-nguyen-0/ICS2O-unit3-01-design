@@ -21,7 +21,8 @@ function myButtonClicked() {
   const base2 = parseInt(document.getElementById("base-2").value)
   const height = parseInt(document.getElementById("height-number").value)
 
-  const area = (( base1 + base2 ) / 2) * height
+  const area = ((base1 + base2) / 2) * height
 
-  document.getElementById("area").innerHTML = "<h5>The area is " + area + "</h5>"
+  document.getElementById("area").innerHTML =
+    "<h5>The area is " + area + "</h5>"
 }
