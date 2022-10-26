@@ -58,70 +58,77 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-      <!--first column to split screen-->
+        <!--first column to split screen-->
         <div id="col-1">
-          <h2>Enter integers for 
-          <br>
-          dimensions:
-        </h2>
-        <br/>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          Base 1:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-1"
-            />
-            <label class="mdl-textfield__label" for="sample2">Number...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          Base 2:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-2"
-            />
-            <label class="mdl-textfield__label" for="sample2">Number...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          Height:
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-number"
-            />
-            <label class="mdl-textfield__label" for="sample2">Number...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
-        <br />
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
-        >
-          calculate
-        </button>
-        <!--basic text-->
-        <div id="hello-world"></div>
-        <!--second column-->
+          <h2>
+            Enter integers for
+            <br />
+            dimensions:
+          </h2>
+          <br />
+          <!-- Numeric Textfield -->
+          <form action="#">
+            Base 1:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                pattern="-?[0-9]*(\.[0-9]+)?"
+                id="base-1"
+              />
+              <label class="mdl-textfield__label" for="sample2"
+                >Number...</label
+              >
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+          <!-- Numeric Textfield -->
+          <form action="#">
+            Base 2:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                pattern="-?[0-9]*(\.[0-9]+)?"
+                id="base-2"
+              />
+              <label class="mdl-textfield__label" for="sample2"
+                >Number...</label
+              >
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+          <!-- Numeric Textfield -->
+          <form action="#">
+            Height:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                pattern="-?[0-9]*(\.[0-9]+)?"
+                id="height-number"
+              />
+              <label class="mdl-textfield__label" for="sample2"
+                >Number...</label
+              >
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+          </form>
+          <br />
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myButtonClicked()"
+          >
+            calculate
+          </button>
+          <!--basic text-->
+          <div id="hello-world"></div>
+          <!--second column-->
         </div>
         <div id="col-2">
-          <h2 style="padding-left: 100px;">formula:</h2>
-          <h5 style="padding-left: 100px;">A = [(b1 + b2) / 2] h</h5>
-          <br>
+          <h2 style="padding-left: 100px">formula:</h2>
+          <h5 style="padding-left: 100px">A = [(b1 + b2) / 2] h</h5>
+          <br />
           <img
             src="./images/trapezoid.svg"
             alt="trapezoid"

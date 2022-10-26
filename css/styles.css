@@ -41,11 +41,12 @@ body {
   height: 100%;
 }
 
-h2, h5{
+h2,
+h5 {
   color: #4c008a;
 }
 
-img{
+img {
   display: block;
   margin-left: 20px;
 }
