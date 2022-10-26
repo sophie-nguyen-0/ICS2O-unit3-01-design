@@ -28,7 +28,6 @@ body {
 /* width and height set size of each column (50% means 50% of the screen)
 *float makes the column go to whatever place it is assigned
 *(left means to go to left side of screen)
-*position
 */
 #col-1 {
   position: relative;
